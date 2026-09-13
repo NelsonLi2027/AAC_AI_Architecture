@@ -1,0 +1,437 @@
+{
+  "args": {
+    "configs": [
+      "utility",
+      "supervised",
+      "oracle"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "duration": 3000,
+    "ceiling": 4000,
+    "quick": false,
+    "out": "run_phase41_utility_results.json"
+  },
+  "results": [
+    {
+      "config": "utility",
+      "seed": 0,
+      "curve": [
+        [
+          1000,
+          0.06777777777777777
+        ],
+        [
+          2000,
+          0.34888888888888886
+        ],
+        [
+          3000,
+          0.58
+        ],
+        [
+          4000,
+          0.6722222222222223
+        ]
+      ],
+      "diag_curve": [
+        {
+          "ep": 1000,
+          "promote_key": 0.3845926237773049,
+          "promote_filler": 0.3558018771680767,
+          "promote_ratio": 1.080917916561828,
+          "keep_key": 0.5433314718179307,
+          "keep_filler": 0.5345981592830059,
+          "value_key": -0.48423895877256456,
+          "value_filler": -0.6074199792684714,
+          "trace_norm": 2.5447073422664577,
+          "mem_norm": 7.277407977933914
+        },
+        {
+          "ep": 2000,
+          "promote_key": 0.29727700929397816,
+          "promote_filler": 0.16931114699520125,
+          "promote_ratio": 1.7558029377853297,
+          "keep_key": 0.4617612306402406,
+          "keep_filler": 0.47986856904341013,
+          "value_key": -1.0042148553389116,
+          "value_filler": -1.695989357183039,
+          "trace_norm": 4.043949221748005,
+          "mem_norm": 8.420211501986675
+        },
+        {
+          "ep": 3000,
+          "promote_key": 0.5152298526276499,
+          "promote_filler": 0.24595424063251614,
+          "promote_ratio": 2.0948199604228916,
+          "keep_key": 0.17359476406458327,
+          "keep_filler": 0.579388456092018,
+          "value_key": 0.105330452086328,
+          "value_filler": -1.4132093731266322,
+          "trace_norm": 6.677342960518153,
+          "mem_norm": 14.891848137008134
+        },
+        {
+          "ep": 4000,
+          "promote_key": 0.5347044476565307,
+          "promote_filler": 0.22643416049713505,
+          "promote_ratio": 2.3614124586263388,
+          "keep_key": 0.17381399239497383,
+          "keep_filler": 0.5954577812033904,
+          "value_key": 0.18772187905108012,
+          "value_filler": -1.6742396301421352,
+          "trace_norm": 6.847670303046272,
+          "mem_norm": 14.95918090267946
+        }
+      ],
+      "converged": false,
+      "final_acc": 0.6722222222222223,
+      "episodes_run": 4000,
+      "final_diag": {
+        "ep": 4000,
+        "promote_key": 0.5347044476565307,
+        "promote_filler": 0.22643416049713505,
+        "promote_ratio": 2.3614124586263388,
+        "keep_key": 0.17381399239497383,
+        "keep_filler": 0.5954577812033904,
+        "value_key": 0.18772187905108012,
+        "value_filler": -1.6742396301421352,
+        "trace_norm": 6.847670303046272,
+        "mem_norm": 14.95918090267946
+      }
+    },
+    {
+      "config": "utility",
+      "seed": 1,
+      "curve": [
+        [
+          1000,
+          0.07222222222222222
+        ],
+        [
+          2000,
+          0.2644444444444444
+        ],
+        [
+          3000,
+          0.4111111111111111
+        ],
+        [
+          4000,
+          0.46333333333333326
+        ]
+      ],
+      "diag_curve": [
+        {
+          "ep": 1000,
+          "promote_key": 0.28528867867154023,
+          "promote_filler": 0.23378894958864738,
+          "promote_ratio": 1.220282991020349,
+          "keep_key": 0.5784375509903299,
+          "keep_filler": 0.5830401858707974,
+          "value_key": -0.9876848480446994,
+          "value_filler": -1.2303057001012947,
+          "trace_norm": 3.1923226922205585,
+          "mem_norm": 5.3634892701854175
+        },
+        {
+          "ep": 2000,
+          "promote_key": 0.43484573802898324,
+          "promote_filler": 0.3142607441013433,
+          "promote_ratio": 1.3837100121189603,
+          "keep_key": 0.4744515207071492,
+          "keep_filler": 0.4795702415014593,
+          "value_key": -0.2686601311451897,
+          "value_filler": -0.8238053278560233,
+          "trace_norm": 3.675708731975915,
+          "mem_norm": 14.511586179470555
+        },
+        {
+          "ep": 3000,
+          "promote_key": 0.3909599802470753,
+          "promote_filler": 0.25185691619166745,
+          "promote_ratio": 1.552309883559235,
+          "keep_key": 0.5225253087114244,
+          "keep_filler": 0.5295479153802607,
+          "value_key": -0.480504663832037,
+          "value_filler": -1.1724565365076416,
+          "trace_norm": 4.697018393944212,
+          "mem_norm": 13.180793482318052
+        },
+        {
+          "ep": 4000,
+          "promote_key": 0.43331035626347414,
+          "promote_filler": 0.28205784909551496,
+          "promote_ratio": 1.5362464035409262,
+          "keep_key": 0.47517023885813076,
+          "keep_filler": 0.4832225871213175,
+          "value_key": -0.28529677352983907,
+          "value_filler": -1.0299544603031092,
+          "trace_norm": 4.546712704716187,
+          "mem_norm": 14.765344494628277
+        }
+      ],
+      "converged": false,
+      "final_acc": 0.46333333333333326,
+      "episodes_run": 4000,
+      "final_diag": {
+        "ep": 4000,
+        "promote_key": 0.43331035626347414,
+        "promote_filler": 0.28205784909551496,
+        "promote_ratio": 1.5362464035409262,
+        "keep_key": 0.47517023885813076,
+        "keep_filler": 0.4832225871213175,
+        "value_key": -0.28529677352983907,
+        "value_filler": -1.0299544603031092,
+        "trace_norm": 4.546712704716187,
+        "mem_norm": 14.765344494628277
+      }
+    },
+    {
+      "config": "supervised",
+      "seed": 0,
+      "curve": [
+        [
+          1000,
+          0.017777777777777778
+        ],
+        [
+          2000,
+          0.016666666666666666
+        ],
+        [
+          3000,
+          0.03444444444444444
+        ]
+      ],
+      "diag_curve": [
+        {
+          "ep": 1000,
+          "promote_key": 0.39376702226790494,
+          "promote_filler": 0.26248033973149465,
+          "promote_ratio": 1.500177204398282
+        },
+        {
+          "ep": 2000,
+          "promote_key": 0.41699544053157794,
+          "promote_filler": 0.22580037481518614,
+          "promote_ratio": 1.8467437924887493
+        },
+        {
+          "ep": 3000,
+          "promote_key": 0.5053255078356375,
+          "promote_filler": 0.17267886749855912,
+          "promote_ratio": 2.926388823113251
+        }
+      ],
+      "converged": true,
+      "final_acc": 0.03444444444444444,
+      "episodes_run": 3000,
+      "final_diag": {
+        "ep": 3000,
+        "promote_key": 0.5053255078356375,
+        "promote_filler": 0.17267886749855912,
+        "promote_ratio": 2.926388823113251
+      }
+    },
+    {
+      "config": "supervised",
+      "seed": 1,
+      "curve": [
+        [
+          1000,
+          0.08222222222222221
+        ],
+        [
+          2000,
+          0.32666666666666666
+        ],
+        [
+          3000,
+          0.4444444444444445
+        ],
+        [
+          4000,
+          0.5244444444444444
+        ]
+      ],
+      "diag_curve": [
+        {
+          "ep": 1000,
+          "promote_key": 0.23241506118047042,
+          "promote_filler": 0.11549285155964827,
+          "promote_ratio": 2.0123761604451826
+        },
+        {
+          "ep": 2000,
+          "promote_key": 0.4017538965121759,
+          "promote_filler": 0.2562598576912627,
+          "promote_ratio": 1.5677597737379603
+        },
+        {
+          "ep": 3000,
+          "promote_key": 0.4113934914680305,
+          "promote_filler": 0.24412877311016165,
+          "promote_ratio": 1.685149547212084
+        },
+        {
+          "ep": 4000,
+          "promote_key": 0.4582301029173295,
+          "promote_filler": 0.24348912288981991,
+          "promote_ratio": 1.8819325375970943
+        }
+      ],
+      "converged": false,
+      "final_acc": 0.5244444444444444,
+      "episodes_run": 4000,
+      "final_diag": {
+        "ep": 4000,
+        "promote_key": 0.4582301029173295,
+        "promote_filler": 0.24348912288981991,
+        "promote_ratio": 1.8819325375970943
+      }
+    },
+    {
+      "config": "oracle",
+      "seed": 0,
+      "curve": [
+        [
+          1000,
+          0.8844444444444444
+        ],
+        [
+          2000,
+          0.99
+        ],
+        [
+          3000,
+          1.0
+        ],
+        [
+          4000,
+          0.9966666666666667
+        ]
+      ],
+      "diag_curve": [
+        {
+          "ep": 1000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        },
+        {
+          "ep": 2000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        },
+        {
+          "ep": 3000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        },
+        {
+          "ep": 4000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        }
+      ],
+      "converged": true,
+      "final_acc": 0.9966666666666667,
+      "episodes_run": 4000,
+      "final_diag": {
+        "ep": 4000,
+        "promote_key": 1.0,
+        "promote_filler": 0.0,
+        "promote_ratio": 100000000.0
+      }
+    },
+    {
+      "config": "oracle",
+      "seed": 1,
+      "curve": [
+        [
+          1000,
+          0.9722222222222223
+        ],
+        [
+          2000,
+          0.9944444444444446
+        ],
+        [
+          3000,
+          0.9966666666666667
+        ],
+        [
+          4000,
+          0.9977777777777779
+        ]
+      ],
+      "diag_curve": [
+        {
+          "ep": 1000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        },
+        {
+          "ep": 2000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        },
+        {
+          "ep": 3000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        },
+        {
+          "ep": 4000,
+          "promote_key": 1.0,
+          "promote_filler": 0.0,
+          "promote_ratio": 100000000.0
+        }
+      ],
+      "converged": true,
+      "final_acc": 0.9977777777777779,
+      "episodes_run": 4000,
+      "final_diag": {
+        "ep": 4000,
+        "promote_key": 1.0,
+        "promote_filler": 0.0,
+        "promote_ratio": 100000000.0
+      }
+    }
+  ],
+  "summary": {
+    "utility": {
+      "mean": 0.5677777777777777,
+      "std": 0.1044444444444445,
+      "min": 0.46333333333333326,
+      "max": 0.6722222222222223,
+      "converged_count": 0,
+      "n_seeds": 2
+    },
+    "supervised": {
+      "mean": 0.2794444444444444,
+      "std": 0.24499999999999997,
+      "min": 0.03444444444444444,
+      "max": 0.5244444444444444,
+      "converged_count": 1,
+      "n_seeds": 2
+    },
+    "oracle": {
+      "mean": 0.9972222222222222,
+      "std": 0.0005555555555555869,
+      "min": 0.9966666666666667,
+      "max": 0.9977777777777779,
+      "converged_count": 2,
+      "n_seeds": 2
+    }
+  }
+}
