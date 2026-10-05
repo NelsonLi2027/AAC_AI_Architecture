@@ -126,9 +126,6 @@ python3 train_compare.py     # RNN vs. attention vs. AAC-diff, matched budget
   anything else until it's controlled for.
 
 ## What's genuinely still open
-
-- Whether AAC-diff can match or beat attention once both are trained
-  under equivalent, converged optimization — **not yet tested**.
 - Whether gate supervision helps net of a fixed optimizer, and by how
   much — current estimate (+5-9pp, 2 seeds, 2 unconverged schedules) is
   a lower-confidence placeholder, not a settled number.
@@ -142,27 +139,6 @@ python3 train_compare.py     # RNN vs. attention vs. AAC-diff, matched budget
 
 ## Contributing / next steps
 
-In priority order, per Phase 3's own conclusion:
-
-1. Re-run every existing configuration — RNN, attention, and AAC-diff,
-   aux and no-aux — under a properly explored learning-rate schedule
-   space, to confirmed convergence, with the *same* optimizer treatment
-   applied to all of them. Nothing else in this list matters until this
-   is done, because it's the thing that would make any other comparison
-   trustworthy again.
-2. Only after (1): investigate an unsupervised (non-oracle-label) proxy
-   for write importance, since the current gate-supervision results
-   depend on ground-truth labels not available in a real deployment.
-3. Only after (1) and (2): consider read-side sharpening (e.g. a
-   softmax/Hopfield-style retrieval instead of the current unnormalized
-   linear dot-product read) as a separate, isolated experiment — not
-   bundled with (2), so any effect can be attributed correctly.
-4. Longer-term: integrate the discrete mechanisms from the Phase 1
-   prototype (promotion, eviction, merge, hierarchical routing, adaptive
-   reasoning) into the differentiable pathway, once the foundation above
-   is stable enough to build on without re-litigating basic optimizer
-   hygiene every time a new number looks surprising.
-
 If you're adding a new experiment: gradient-check any new autodiff op
 before trusting results built on it, run more than one seed before
 reporting an accuracy number, and check for convergence before treating
@@ -171,4 +147,4 @@ three things had to walk something back later.
 
 ## License
 
-*(add license here)*
+*Apache 2.0*
